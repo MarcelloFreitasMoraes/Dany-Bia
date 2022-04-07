@@ -1,0 +1,295 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 1366px;
+  margin: 0 auto;
+}
+header {
+  width: 1366px;
+  height: 451px;
+  background-image: url(./topo.jpg);
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+}
+.logo {
+  width: 409px;
+  height: 187px;
+  position: absolute;
+  top: 30px;
+  left: 230px;
+}
+
+nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 38px;
+  z-index: 3;
+}
+
+.link {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#l1 {
+  background-color: rgb(1, 102, 44);
+}
+
+#l2 {
+  background-color: rgb(142, 191, 63);
+}
+
+#l3 {
+  background-color: rgb(231, 120, 38);
+}
+#l4 {
+  background-color: rgb(53, 148, 192);
+}
+#l5 {
+  background-color: rgb(194, 13, 92);
+}
+#l6 {
+  background-color: rgb(145, 82, 127);
+}
+
+.banner {
+  position: relative;
+  width: 921px;
+  height: 386px;
+  margin: 0 auto;
+  margin-top: -18px;
+  z-index: 2;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 65%;
+  margin-top: -59px;
+  z-index: 3;
+}
+
+.card,
+.card1,
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  align-items: center;
+}
+
+.card {
+  background-color: rgb(145, 82, 127);
+  padding-left: 8px;
+}
+
+.card1 {
+  background-color: rgb(231, 120, 38);
+  padding: 8px;
+}
+
+.card2 {
+  background-color: rgb(142, 191, 63);
+  padding: 8px;
+}
+.cards p {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 12px;
+}
+
+.p0 {
+  color: white;
+}
+
+.p1 {
+  color: rgb(142, 191, 63);
+}
+
+.p2 {
+  color: rgb(145, 82, 127);
+  text-shadow: 0px 2px 4px white;
+}
+
+.p3 {
+  color: rgb(231, 120, 38);
+  text-shadow: 0px 2px 4px white;
+}
+
+.buffet_contato {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.sobre {
+  width: 921px;
+  height: 386px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buffet, .contact {
+  width: 48%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: -18px;
+}
+
+.icon img {
+  width: 33px;
+  height: 31px;
+}
+
+h1 {
+  margin-left: 10px;
+  color: rgb(144, 81, 126);
+  text-transform: uppercase;
+  font-size: 25px;
+}
+h2 {
+  color: rgb(231, 120, 38);
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.sobre p {
+  font-size: 14px;
+  line-height: 8px;
+}
+
+form {
+  padding-left: 0;
+}
+.input0 {
+  margin-left: 31px;
+}
+
+#nome {
+  width: 350px;
+}
+
+#email {
+  width: 205px;
+}
+
+.input1 {
+  display: flex;
+  margin: 10px;
+}
+
+.input2 {
+  margin-left: 18px;
+}
+
+.small {
+  width: 5%;
+}
+
+.tel {
+  display: flex;
+  height: 100%;
+}
+
+.tel input {
+  margin-left: 10px;
+}
+
+.botton {
+  display: flex;
+  align-items: flex-end;
+}
+
+#enviar {
+  font-size: 18px;
+  color: white;
+  background-color: rgb(231, 120, 38);
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+footer {
+  background-image: url(./footer.jpg);
+  width: 1366px;
+  height: 196px;
+  color: white;
+  z-index: -5;
+}
+
+#footer_menu {
+  padding-top: 47px;
+}
+
+.footer_navegation,
+.copy {
+  display: flex;
+  justify-content: center;
+}
+
+.copy {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.buton a {
+  margin-left: 20px;
+  font-size: 14px;
+  }
+
+.footer_star1 {
+  width: 249px;
+  height: 141px;
+  margin-left: 180px;
+}
+
+.footer_star {
+  display: flex;
+  align-items: center;
+  margin-top: -110px;
+  justify-content: space-between;
+}
+.footer_face {
+  display: flex;
+  position: relative;
+  z-index: 3;
+  justify-content: flex-end;
+  margin-top: -101px;
+  margin-right: 331px;
+}
+
+.footer_star2 {
+  width: 249px;
+  height: 141px;
+  z-index: 1;
+  margin-right: 150px;
+}
